@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 220, 180);
+    color: rgb(30, 50, 30);
+}
+
+h1 {
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(30, 50, 30);
+    color: rgb(180, 220, 180);
+    margin: 10px 0 20px 0;
+    border: none;
+    border-radius: 20px;
+}
+
+button:active,
+.active {
+    color: rgb(30, 50, 30);
+    background-color: whitesmoke;
+}
+
+.gridbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border: solid rgb(30, 50, 30) 5px;
+    margin: 0;
+    padding: 0;
+    
+}
+    
+.gridPiece {
+    border: dashed  1px;
+    margin: 0;
+    padding: 0;
+}
+
+.current {
+    background-color: rgb(220, 240, 220);
+}
+
+.passed {
+    background-color: rgb(60, 110, 60);
+}
